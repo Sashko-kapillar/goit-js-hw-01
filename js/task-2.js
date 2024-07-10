@@ -1,3 +1,5 @@
+'use strict';
+
 function getShippingMessage(country, price, deliveryFee){
   totalPrice = price + deliveryFee;
   return `You ordered ${country} droids worth ${totalPrice} credits!`;
